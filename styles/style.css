@@ -296,7 +296,7 @@ input:focus {
    color: #95a5a6; 
 }
 
-ul.guessBox {
+ol.guessBox {
 	height: 80px;
 	margin: 10px auto 0;
 	background: #11a8ab;
@@ -308,9 +308,9 @@ ul.guessBox {
 	color: #fff;
 	overflow: auto;
 }
-ul.guessBox li {
+ol.guessBox li {
 	display: inline;
-	background-color: #1a4e95;
+	//background-color: #1a4e95;
 	padding: 0.3em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -318,4 +318,25 @@ ul.guessBox li {
 	width: 95%;
 	margin: 0.2em;
 	color: #fff;
+}
+
+.gotIt{
+	background-color: red;
+}
+
+.hot{
+	background-color: darkorange;
+}
+
+.warm{
+	background-color: lightsalmon;
+}
+
+.tepid{
+	background-color: darkseagreen;
+	color: darkgray;
+}
+
+.cold{
+	background-color: skyblue;
 }
